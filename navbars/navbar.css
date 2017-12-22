@@ -1,0 +1,87 @@
+ul {
+     list-style-type: none;
+     padding:0;
+     margin:0;
+     top:0;
+     left:0;
+     height:50px;
+     width:100%;
+     background-color:black;
+       border: 1px solid red;
+     
+   
+} 
+
+li a {
+     display: block;
+     padding:16 16 16 16;
+     float:left;
+     color:white;
+     text-decoration: none;
+     border-right: 1px solid red;
+} 
+
+li a:hover
+{
+	background-color:grey;
+}
+li a:active
+{
+	background-color:blue;
+}
+li:last-child
+{
+	border-right: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    
+    display:inline-block;
+}
+
+.dropdown-content {
+  display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+     display:block;
+}
+
+.dropdown-content a:hover
+{
+     
+     background-color:coral;
+}
+
+.dropdown-content a:active
+{
+     background-color:yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropbtn:active{
+    background-color: red;
+}
+
